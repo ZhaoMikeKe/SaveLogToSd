@@ -15,6 +15,7 @@ public class App extends Application {
 
     @Override
     public void onCreate() {
+
         super.onCreate();
         mApp = this;
         config = LogUtils.getConfig();
